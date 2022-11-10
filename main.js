@@ -1,15 +1,15 @@
 const ele = document.querySelector('.drop-down');
 
-ele.addEventListener('mouseover', (event) => {
+ele.addEventListener('mouseenter', (event) => {
   const options = document.getElementsByClassName('menu1');
   for(let i = 0; i < options.length; i++) {
-    .classList.add('show');
+    options[i].classList.add('show menu1');
   }
 })
 
-ele.addEventListener('onmouseleave', (event) => {
+/* ele.addEventListener('onmouseleave', (event) => {
   const options = document.getElementsByClassName('menu1');
   for(let i = 0; i < options.length; i++) {
-    this.classList.add('hidden');
+    options.classList.add('hidden');
   }
-})
+}) */
