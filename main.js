@@ -1,6 +1,10 @@
 const dropDown = document.querySelector('.drop-down');
 
-dropDown.addEventListener('mouseover', (event) => {
+dropDown.addEventListener('click', () => {
+
+})
+
+/* dropDown.addEventListener('mouseover', (event) => {
   const menu1 = document.querySelectorAll('.menu1');
   menu1.forEach((item) => {
     item.classList.add('show');
@@ -9,7 +13,7 @@ dropDown.addEventListener('mouseover', (event) => {
       item.classList.add('hidden');
     })
   })
-})
+}) */
 
 /* ele.addEventListener('onmouseleave', (event) => {
   const options = document.getElementsByClassName('menu1');
